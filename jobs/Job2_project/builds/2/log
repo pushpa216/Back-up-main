@@ -1,0 +1,23 @@
+Started by user [8mha:////4J4mwBRL93hpGifqHu6cvNvduCHCRC2zsX+9i+KiYdqWAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9gtLijIJEALEUaTHBAAAA[0mPushpa
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Job2_project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Job2_project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pushpa216/C_projects.git # timeout=10
+Fetching upstream changes from https://github.com/pushpa216/C_projects.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/pushpa216/C_projects.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a1a0fb915b1f6cd8c192f24fdc50f0d932a59236 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a1a0fb915b1f6cd8c192f24fdc50f0d932a59236 # timeout=10
+Commit message: "Update test1"
+ > git rev-list --no-walk a1a0fb915b1f6cd8c192f24fdc50f0d932a59236 # timeout=10
+[Job2_project] $ /bin/sh -xe /tmp/jenkins3847420862956667806.sh
++ /var/lib/jenkins/workspace/Job2_project
+/tmp/jenkins3847420862956667806.sh: 2: /var/lib/jenkins/workspace/Job2_project: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
